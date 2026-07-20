@@ -142,9 +142,7 @@ function New-Gallery {
 
     )
 
-    $Folders = Get-ChildItem `
-        $OutputFolder `
-        -Directory
+   $Folders = Get-ChildItem $OutputFolder | Where-Object { $_.PSIsContainer }
 
     $Current = 0
 
