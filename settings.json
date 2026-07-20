@@ -1,0 +1,15 @@
+{
+    "Marketplace":"Flipkart",
+    "ExpectedImages":7,
+    "Extensions":[
+        "jpg",
+        "jpeg",
+        "png",
+        "webp"
+    ],
+    "Theme":"Dark",
+    "Zip":false,
+    "GenerateReports":true,
+    "RenameImages":true,
+    "AutoBackup":true
+}
