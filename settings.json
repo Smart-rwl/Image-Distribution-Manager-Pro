@@ -1,15 +1,16 @@
 {
-    "Marketplace":"Flipkart",
-    "ExpectedImages":7,
-    "Extensions":[
-        "jpg",
-        "jpeg",
-        "png",
-        "webp"
-    ],
-    "Theme":"Dark",
-    "Zip":false,
-    "GenerateReports":true,
-    "RenameImages":true,
-    "AutoBackup":true
+  "Marketplace": "Flipkart",
+  "SupportedExtensions": [
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".webp"
+  ],
+  "Overwrite": true,
+  "CreateBackup": true,
+  "GenerateGallery": true,
+  "GenerateZip": true,
+  "CreateReports": true,
+  "RetryCount": 3,
+  "LogLevel": "INFO"
 }
